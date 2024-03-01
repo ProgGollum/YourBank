@@ -1,0 +1,28 @@
+<svg width="98.000000" height="98.000000" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip103_146">
+			<rect id="Icon" width="34.000000" height="34.000000" transform="translate(32.000000 32.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_53_612_0" x1="49.000000" y1="0.000000" x2="49.000000" y2="98.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="1.000000" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_53_613_0" x1="49.000000" y1="-36.999992" x2="49.000000" y2="203.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.467671" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_53_613_1" x1="49.000015" y1="-116.499985" x2="49.000015" y2="153.000015" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.716291" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Icon Container" rx="49.000000" width="98.000000" height="98.000000" fill="url(#paint_linear_53_612_0)" fill-opacity="0.050000"/>
+	<rect id="Icon" rx="18.500000" width="73.000000" height="73.000000" transform="translate(12.500000 12.500000)" fill="url(#paint_linear_53_613_0)" fill-opacity="0.100000"/>
+	<g clip-path="url(#clip103_146)">
+		<path id="Union" d="M34.125 48.4688L34.125 45.9291C34.125 44.9146 34.4883 43.9336 35.1484 43.1633L39.8018 37.7341C40.6094 36.7921 41.7881 36.25 43.0283 36.25L54.9717 36.25C56.2119 36.25 57.3906 36.7921 58.1982 37.7341L62.8516 43.1633C63.5117 43.9336 63.875 44.9146 63.875 45.9291L63.875 48.4688C63.875 49.9358 62.6855 51.125 61.2188 51.125L36.7812 51.125C35.3145 51.125 34.125 49.9358 34.125 48.4688ZM41.415 39.1171C41.8184 38.6461 42.4082 38.375 43.0283 38.375L54.9717 38.375C55.5918 38.375 56.1816 38.6461 56.585 39.1171L60.502 43.6875L56.0186 43.6875C54.5977 43.6875 53.2705 44.3977 52.4824 45.58L52.25 45.9287C51.8555 46.5199 51.1924 46.875 50.4814 46.875L47.5186 46.875C46.8076 46.875 46.1445 46.5199 45.75 45.9287L45.5176 45.58C44.7295 44.3977 43.4023 43.6875 41.9814 43.6875L37.498 43.6875L41.415 39.1171ZM34.125 55.1094C34.125 54.0825 34.957 53.25 35.9844 53.25L41.9814 53.25C43.4023 53.25 44.7295 53.9602 45.5176 55.1425L45.75 55.4912C46.1445 56.0824 46.8076 56.4375 47.5186 56.4375L50.4814 56.4375C51.1924 56.4375 51.8555 56.0824 52.25 55.4912L52.4824 55.1425C53.2705 53.9602 54.5977 53.25 56.0186 53.25L62.0156 53.25C63.043 53.25 63.875 54.0825 63.875 55.1094L63.875 57.5C63.875 59.8472 61.9727 61.75 59.625 61.75L38.375 61.75C36.0273 61.75 34.125 59.8472 34.125 57.5L34.125 55.1094Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Icon" rx="18.500000" width="73.000000" height="73.000000" transform="translate(12.500000 12.500000)" stroke="url(#paint_linear_53_613_1)" stroke-opacity="0.200000" stroke-width="1.000000"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="98.000000" height="98.000000" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip101_62">
+			<rect id="Icon" width="34.000000" height="34.000000" transform="translate(32.000000 32.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_11_86901_0" x1="49.000000" y1="0.000000" x2="49.000000" y2="98.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="1.000000" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_11_86902_0" x1="49.000000" y1="-36.999992" x2="49.000000" y2="203.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.467671" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_11_86902_1" x1="49.000015" y1="-116.499985" x2="49.000015" y2="153.000015" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.716291" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Icon Container" rx="49.000000" width="98.000000" height="98.000000" fill="url(#paint_linear_11_86901_0)" fill-opacity="0.050000"/>
+	<rect id="Icon" rx="18.500000" width="73.000000" height="73.000000" transform="translate(12.500000 12.500000)" fill="url(#paint_linear_11_86902_0)" fill-opacity="0.100000"/>
+	<g clip-path="url(#clip101_62)">
+		<path id="Union" d="M34.125 38.9062C34.125 37.4392 35.3145 36.25 36.7812 36.25L61.2188 36.25C62.6855 36.25 63.875 37.4392 63.875 38.9062L63.875 39.9688C63.875 41.4358 62.6855 42.625 61.2188 42.625L36.7812 42.625C35.3145 42.625 34.125 41.4358 34.125 39.9688L34.125 38.9062ZM37.1377 57.7495L36.373 44.75L61.6265 44.75L60.8618 57.7495C60.73 59.996 58.8696 61.75 56.6191 61.75L41.3804 61.75C39.1299 61.75 37.27 59.996 37.1377 57.7495ZM50.0625 47.9375C50.0625 47.3507 49.5869 46.875 49 46.875C48.4131 46.875 47.9375 47.3507 47.9375 47.9375L47.9375 54.9349L45.5015 52.4987C45.0864 52.0837 44.4136 52.0837 43.9985 52.4987C43.584 52.9136 43.584 53.5864 43.9985 54.0013L48.2485 58.2513C48.6636 58.6663 49.3364 58.6663 49.7515 58.2513L54.0015 54.0013C54.416 53.5864 54.416 52.9136 54.0015 52.4987C53.5864 52.0837 52.9136 52.0837 52.4985 52.4987L50.0625 54.9349L50.0625 47.9375Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Icon" rx="18.500000" width="73.000000" height="73.000000" transform="translate(12.500000 12.500000)" stroke="url(#paint_linear_11_86902_1)" stroke-opacity="0.200000" stroke-width="1.000000"/>
+</svg>

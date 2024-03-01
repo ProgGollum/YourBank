@@ -1,0 +1,32 @@
+<svg width="94.000000" height="94.000000" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip67_207">
+			<rect id="Icon" width="30.000000" height="30.000000" transform="translate(32.000000 32.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_67_186_0" x1="47.000000" y1="0.000000" x2="47.000000" y2="94.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="1.000000" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_67_187_0" x1="47.000000" y1="-34.351345" x2="47.000000" y2="192.675674" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.467671" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_67_187_1" x1="47.000000" y1="-109.554047" x2="47.000000" y2="145.378372" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.716291" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Icon Container" rx="47.000000" width="94.000000" height="94.000000" fill="url(#paint_linear_67_186_0)" fill-opacity="0.050000"/>
+	<rect id="Button" rx="17.500000" width="69.000000" height="69.000000" transform="translate(12.500000 12.500000)" fill="url(#paint_linear_67_187_0)" fill-opacity="0.100000"/>
+	<rect id="Icon" width="30.000000" height="30.000000" transform="translate(32.000000 32.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip67_207)">
+		<path id="Vector" d="M61.707 47.3455C61.707 46.3259 61.625 45.3008 61.4492 44.2976L47.3008 44.2976L47.3008 50.0737L55.4023 50.0737C55.0664 51.9368 53.9883 53.5847 52.4062 54.6321L52.4062 58.3799L57.2383 58.3799C60.0781 55.7673 61.707 51.9092 61.707 47.3455Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M47.3008 62.0012C51.3438 62.0012 54.7578 60.6729 57.2422 58.3799L52.4102 54.6321C51.0625 55.5469 49.3281 56.0652 47.3047 56.0652C43.3906 56.0652 40.0742 53.425 38.8828 49.8755L33.8945 49.8755L33.8945 53.7393C36.4414 58.8044 41.6289 62.0012 47.3008 62.0012Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M38.8789 49.8755C38.25 48.0125 38.25 45.9951 38.8789 44.1323L38.8789 40.2686L33.8945 40.2686C31.7695 44.5071 31.7695 49.5005 33.8945 53.739L38.8789 49.8755Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M47.3008 37.937C49.4375 37.9041 51.5039 38.7087 53.0547 40.1858L57.3359 35.9033C54.625 33.3569 51.0234 31.957 47.3008 32.001C41.6289 32.001 36.4414 35.1978 33.8945 40.2686L38.8789 44.1321C40.0625 40.5771 43.3867 37.937 47.3008 37.937Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Button" rx="17.500000" width="69.000000" height="69.000000" transform="translate(12.500000 12.500000)" stroke="url(#paint_linear_67_187_1)" stroke-opacity="0.200000" stroke-width="1.000000"/>
+</svg>

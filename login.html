@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Bank</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="./index.html" class="header__logo">
+          <img src="./img/header/logo.svg" alt="Logo" class="header__logo-img">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="./index.html" class="header__nav-item-link">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="./careers.html" class="header__nav-item-link">Careers</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="./about.html" class="header__nav-item-link">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="./security.html" class="header__nav-item-link">Security</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <a href="./signup.html" class="header__buttons-signup">Sign Up</a>
+          <a href="./login.html" class="header__buttons-login">Login</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="log">
+      <div class="container">
+        <div class="wrapper">
+          <h2 class="login__title">Login</h2>
+          <p class="login__form-info">Welcome back! Please log in to access your account.</p>
+          <form action="" class="login__form">
+            <div class="login__inputs">
+              <input type="email" placeholder="Enter your Email" class="login__inputs-email">
+              <input type="password" placeholder="Enter your Password" class="login__inputs-pass">
+            </div>
+            <a href="#!" class="login__form-forgot">Forgot Password?</a>
+            <div class="login__form-buttons">
+              <button type="submit" class="form__login-buttons-login">Login</button>
+              <button type="submit" class="form__login-buttons-signup">Sign Up</button>
+            </div>
+            <p class="login__form-continue">Or Continue with</p>
+            <div class="login__form-coninue-icons">
+              <a href="#!" class="login__form-continue-icons-link">
+                <img src="./img/login/log/googl.svg" alt="" class="login__form-continue-icons-img">
+              </a>
+              <a href="#!" class="login__form-continue-icons-link">
+                <img src="./img/login/log/faceboock.svg" alt="" class="login__form-continue-icons-img">
+              </a>
+              <a href="#!" class="login__form-continue-icons-link">
+                <img src="./img/login/log/apple.svg" alt="" class="login__form-continue-icons-img">
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section__title">Our <span>Tetstimonials</span></h2>
+        <div class="testimonials__information">
+          <p class="testimonials__info">Discover a range of comprehensive and customizable banking products at YourBank,
+            designed to suit your unique financial
+            needs and aspirations</p>
+          <div class="testimonials__information-buttons">
+            <button class="testimonials__information-button testimonials__information-button--active swiper-individual">For
+              Individuals</button>
+            <button class="testimonials__information-button swiper-business">For Businesses</button>
+          </div>
+        </div>
+        <div class="swiper mySwiper" id="swiper-content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                YourBank has been my trusted financial partner for years. Their personalized service and innovative digital
+                banking
+                solutions have made managing my finances a breeze.
+              </p>
+              <p class="swiper__card-author">Sara T</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                I recently started my own business, and YourBank has been instrumental in helping me set up my business
+                accounts and
+                secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
+              </p>
+              <p class="swiper__card-author">John D</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                I love the convenience of YourBank's mobile banking app. It allows me to stay on top of my finances and make
+                transactions on the go. The app is user-friendly and secure, giving me peace of mind.
+              </p>
+              <p class="swiper__card-author">Emily G</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper mySwiper hidden" id="swiper-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                YourBank has been my trusted financial partner for years. Their personalized service and innovative digital
+                banking
+                solutions have made managing my finances a breeze.
+              </p>
+              <p class="swiper__card-author">Sara T</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                I recently started my own business, and YourBank has been instrumental in helping me set up my business
+                accounts and
+                secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
+              </p>
+              <p class="swiper__card-author">John D</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                I love the convenience of YourBank's mobile banking app. It allows me to stay on top of my finances and make
+                transactions on the go. The app is user-friendly and secure, giving me peace of mind.
+              </p>
+              <p class="swiper__card-author">Emily G</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                YourBank has been my trusted financial partner for years. Their personalized service and innovative digital
+                banking
+                solutions have made managing my finances a breeze.
+              </p>
+              <p class="swiper__card-author">Sara T</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/testimonials/icon.svg" alt="" class="swiper__card-img">
+              <p class="swiper__card-text">
+                I recently started my own business, and YourBank has been instrumental in helping me set up my business
+                accounts and
+                secure the financing I needed. Their expert guidance and tailored solutions have been invaluable.
+              </p>
+              <p class="swiper__card-author">John D</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="footer__main">
+      <div class="container">
+        <a href="./index.html" class="footer__main-logo">
+          <img src="./img/footer__main/logo.svg" class="footer__main-logo-img"></img>
+        </a>
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__main-list-item">
+              <a href="./index.html" class="footer__main-list-link">Home</a>
+            </li>
+            <li class="footer__main-list-item">
+              <a href="./careers.html" class="footer__main-list-link">Careers</a>
+            </li>
+            <li class="footer__main-list-item">
+              <a href="./about.html" class="footer__main-list-link">About</a>
+            </li>
+            <li class="footer__main-list-item">
+              <a href="./security.html" class="footer__main-list-link">Security</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  
+    <section class="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <ul class="contacts__list">
+            <li class="contacts__list-item">
+              <img src="./img/contacts/mail.svg" alt="" class="contacts__list-item-img">
+              <a href="mailto:hello@skillbirdge.com" class="contacts__list-link">hello@skillbirdge.com</a>
+            </li>
+            <li class="contacts__list-item">
+              <img src="./img/contacts/phone.svg" alt="" class="contacts__list-item-img">
+              <a href="tel:+91 91813 23 2309" class="contacts__list-link">+91 91813 23 2309</a>
+            </li>
+            <li class="contacts__list-item">
+              <img src="./img/contacts/position.svg" alt="" class="contacts__list-item-img">
+              <a href="#!" class="contacts__list-item-text">Somewhere in the World</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  
+    <section class="social">
+      <div class="container">
+        <div class="social__inner">
+          <div class="social__icons">
+            <a href="#!" class="social__icons-link"><img src="./img/socials/facebook.svg" alt=""
+                class="social__icons-img"></a>
+            <a href="#!" class="social__icons-link"><img src="./img/socials/twitter.svg" alt=""
+                class="social__icons-img"></a>
+            <a href="#!" class="social__icons-link"><img src="./img/socials/In.svg" alt="" class="social__icons-img"></a>
+          </div>
+          <p class="social__text">YourBank All Rights Reserved</p>
+          <p class="social__private-text">Privacy Policy | Terms of Service</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

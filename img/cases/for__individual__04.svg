@@ -1,0 +1,28 @@
+<svg width="78.000000" height="78.000000" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip101_130">
+			<rect id="Icon" width="30.000000" height="30.000000" transform="translate(24.000000 24.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_21_132_0" x1="39.000000" y1="0.000000" x2="39.000000" y2="78.000000" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="1.000000" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_21_133_0" x1="39.000000" y1="-28.405399" x2="39.000000" y2="159.702698" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.467671" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_21_133_1" x1="38.999985" y1="-90.716217" x2="38.999985" y2="120.513489" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#CAFF33"/>
+			<stop offset="0.716291" stop-color="#CAFF33" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<rect id="Icon Container" rx="39.000000" width="78.000000" height="78.000000" fill="url(#paint_linear_21_132_0)" fill-opacity="0.050000"/>
+	<rect id="Icon" rx="14.500000" width="57.000000" height="57.000000" transform="translate(10.500000 10.500000)" fill="url(#paint_linear_21_133_0)" fill-opacity="0.100000"/>
+	<g clip-path="url(#clip101_130)">
+		<path id="Subtract" d="M31.5 27.75C33.9155 27.75 36.168 28.4535 38.0625 29.6661L38.0625 49.7946C36.2793 48.3216 33.9937 47.4375 31.5 47.4375C30.293 47.4375 29.1362 47.6445 28.0625 48.024C27.7754 48.1255 27.457 48.0813 27.2085 47.9056C26.9604 47.7299 26.8125 47.4445 26.8125 47.1401L26.8125 29.3276C26.8125 28.9303 27.063 28.5762 27.4375 28.4437C28.7095 27.9942 30.0771 27.75 31.5 27.75ZM46.5 47.4375C44.0063 47.4375 41.7207 48.3216 39.9375 49.7946L39.9375 29.6661C41.832 28.4535 44.0845 27.75 46.5 27.75C47.9229 27.75 49.2905 27.9942 50.5625 28.4437C50.937 28.5762 51.1875 28.9303 51.1875 29.3276L51.1875 47.1401C51.1875 47.4445 51.0396 47.7299 50.7915 47.9056C50.543 48.0813 50.2246 48.1255 49.9375 48.024C48.8638 47.6445 47.707 47.4375 46.5 47.4375Z" fill="#CAFF33" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<rect id="Icon" rx="14.500000" width="57.000000" height="57.000000" transform="translate(10.500000 10.500000)" stroke="url(#paint_linear_21_133_1)" stroke-opacity="0.200000" stroke-width="1.000000"/>
+</svg>
