@@ -1,0 +1,263 @@
+.welcome__inner {
+  padding-top: 100px;
+  display: flex;
+  column-gap: 120px;
+}
+
+/* Welcome__gen */
+.welcome__gen {
+  max-width: 826px;
+}
+
+.gen__checked {
+  max-width: 357px;
+
+  display: flex;
+  column-gap: 6px;
+  padding: 10px 20px 10px 12px;
+  margin-bottom: 20px;
+
+  background-color: #262626;
+  border-radius: 61px;
+
+
+}
+
+.gen__checked-text {
+  line-height: 24px;
+}
+
+.gen__text {
+  color: #E4E4E7;
+  margin-bottom: 50px;
+}
+
+.gen__button {
+  max-width: 183px;
+  padding: 18px 30px;
+
+  background-color: #CAFF33;
+  border-radius: 82px;
+
+  font-weight: 400;
+  color: #1C1C1C;
+}
+
+
+/* Welcome__finance */
+.welcome__finance {
+  max-width: 515px;
+  background-color: #1A1A1A;
+  position: relative;
+}
+
+.welcome__finance::after {
+  display: inline-block;
+  content: "";
+  width: 418px;
+  height: 383px;
+  position: absolute;
+  top: -10px;
+  right: -230px;
+  background-image: url("./../../img/welcome/finance-abstract.svg");
+  z-index: -3;
+}
+
+.finance__group {
+  padding: 36px;
+  border: 0.87px solid #262626;
+  border-radius: 10.4px;
+  margin-bottom: 13px;
+}
+
+.finance__transactions {
+  max-width: 446px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 26px;
+}
+
+.finance__transactions-title {
+  font-size: 17px;
+  font-weight: 500;
+
+  margin-bottom: 17px;
+}
+
+.transaction {
+  width: 446px;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 14px 21px;
+
+  background-color: #1C1C1C;
+  border-radius: 10.4px;
+}
+
+.transaction__main {
+  display: flex;
+  align-items: center;
+}
+
+.transaction__main-img {
+  background-color: #CAFF33;
+  width: 38px;
+  height: 38px;
+  border-radius: 46px;
+  margin-right: 9px;
+}
+
+.transaction__main-type {
+  font-size: 15.6px;
+  font-weight: 300;
+}
+
+.transaction__main-name {
+  font-size: 17.3px;
+  font-weight: 400;
+}
+
+
+/* Finance */
+.finance__exchange-title {
+  font-size: 17.34px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.finances {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  background-color: #1C1C1C;
+  border-radius: 10.4px;
+  border: 1px solid #262626;
+}
+
+.finances__indian {
+  width: 223px;
+}
+
+.finances__indian-general {
+  height: 99px;
+  padding: 17.34px;
+  border-right: 1px solid #262626;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+  margin-bottom: 9px;
+}
+
+.name-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.full-name-text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #E4E4E7;
+}
+
+.finances__indian-num {
+  height: 78px;
+  padding: 26px 17.34px;
+  font-size: 17.34px;
+  font-weight: 500;
+  border-top: 1px solid #262626;
+}
+
+.finances__usa {
+  width: 223px;
+}
+
+.finances__usa-general {
+  height: 99px;
+  padding: 17.34px;
+  border-bottom: 1px solid #262626;
+}
+
+.finances__usa-num {
+  height: 78px;
+  padding: 26px 17.34px;
+  font-size: 17.34px;
+  font-weight: 500;
+  border-left: 1px solid #262626;
+}
+
+.finance__exchnge-button {
+  width: 100%;
+  padding: 14px 0;
+
+  background-color: #22251B;
+  border-radius: 71px;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #D1FF4D;
+}
+
+.supported__currency {
+  max-width: 370px;
+  padding: 9px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+
+  background-color: #22251B;
+  border-radius: 70px;
+}
+
+.supported__currency-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.supported__currency-icons {
+  padding: 9px;
+
+  display: flex;
+  column-gap: 7px;
+
+  background-color: #1A1A1A;
+  border-radius: 48px;
+
+}
+
+.upper-div {
+  position: absolute;
+  top: -43px;
+  left: -61px;
+
+  max-width: 189px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+
+  background-color: #22251B;
+  border-radius: 10.4px;
+  padding: 13.87px 17.34px;
+}
+
+.upper__div-general-plus {
+  font-size: 17.34px;
+  font-weight: 400 ;
+}
+
+.upper__div-general-text {
+  font-size: 14px;
+  font-weight: 300;
+}

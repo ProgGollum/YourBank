@@ -1,0 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap');
+
+/* Other Css */
+@import "./reset.css";
+@import "./login/header.css";
+@import "./login/log.css";
+@import "./login/testimonials.css";
+@import "./login/footer__main.css";
+@import "./login/contacts.css";
+@import "./login/socials.css";
+
+body {
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background: rgb(26, 26, 26);
+  color: #fff;
+}
+
+footer {
+  background-color: #1C1C1C;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #fff;
+}
+
+.section__title {
+  margin-bottom: 14px;
+
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section__title span {
+  color: #CAFF33;
+}
+
+.container {
+  max-width: 1626px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}

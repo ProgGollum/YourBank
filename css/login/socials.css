@@ -1,0 +1,21 @@
+.social__inner {
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  padding-bottom: 50px;
+}
+
+.social__icons {
+  display: flex;
+  column-gap: 14px;
+}
+
+.social__text {
+  color: #B3B3B3;
+}
+
+.social__private-text {
+  color: #B3B3B3;
+}

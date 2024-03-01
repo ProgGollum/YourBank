@@ -1,0 +1,99 @@
+.benefits {
+  margin-bottom: 150px;
+}
+
+.benefits__info {
+  max-width: 1296px;
+
+  margin-bottom: 80px;
+
+  color: #b3b3b3;
+}
+
+.benefits__list {
+  display: flex;
+  column-gap: 100px;
+}
+
+.benefits__list--first {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.benefits__list--first::before {
+  display: inline-block;
+  
+  content: "";
+  width: 1596px;
+  height: 1px;
+
+
+  position: absolute;
+  bottom: -50px;
+
+  background-image: url("./../../img/careers/benefits/line-horizontal.png");
+}
+
+.benefits__list-item {
+  max-width: 748px;
+
+  padding: 50px;
+
+  border-radius: 50px 20px 50px 20px;
+  background: linear-gradient(149.36deg, rgba(202, 255, 51, 0.05) -30.105%, rgba(202, 255, 51, 0) 28.234%);
+  border: 1px solid #262626;
+}
+
+.benefits__list-item--first {
+  position: relative;
+}
+
+.benefits__list-item--first::before {
+  display: inline-block;
+  
+  content: "";
+  height: 334px;
+  width: 1px;
+
+  position: absolute;
+  right: -50px;
+  top: 0;
+
+  background-image: url("./../../img/careers/benefits/line-virtical.png");
+}
+
+.benefits__list-item--last {
+  position: relative;
+}
+
+.benefits__list-item--last::before {
+  display: inline-block;
+  
+  content: "";
+  height: 334px;
+  width: 1px;
+
+  position: absolute;
+  left: -50px;
+  top: 1px;
+
+  background-image: url("./../../img/careers/benefits/line-virtical.png");
+}
+
+.benefits__list-item-name {
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.name-title {
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.benefits__list-item-text {
+  color: #b3b3b3;
+}

@@ -1,0 +1,81 @@
+.mission {
+  margin-bottom: 670px;
+}
+
+.mission__info {
+  max-width: 1296px;
+
+  margin-bottom: 80px;
+
+  color: #B3B3B3;
+}
+
+.mission__list {
+  position: relative;
+}
+
+.mission__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.mission__list-item--second {
+  position: absolute;
+  top: 521px;
+}
+
+.mission__list-item-image {
+  max-width: 664px;
+  padding: 60px 60px 0 60px;
+
+  background: linear-gradient(149.36deg, rgba(202, 255, 51, 0.05) -37.521%, rgba(202, 255, 51, 0) 32.493%);
+  border-radius: 50px 50px 20px 20px;
+  border: 1px #262626 solid;
+
+  position: relative;
+}
+
+.mission__list-item-image::after {
+  display: inline-block;
+  
+  content: "";
+  width: 634px;
+  height: 602px;
+
+  position: absolute;
+  top: 7px;
+  bottom: 6px;
+  right: 10px;
+  left: 10px;
+
+  background-image: url("./../../img/about/mission/abstract.svg");
+  z-index: 2;
+}
+
+.mission__list-item-img {
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  z-index: 3;
+}
+
+.mission__list-item-block {
+  max-width: 932px;
+  padding-left: 50px;
+  border-left: 1px solid #CAFF33;
+}
+
+.mission__list-item-block--second {
+  border-right: 1px solid #CAFF33;
+  border-left: none
+}
+
+.block-title {
+  margin-bottom: 14px;
+
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.block-text {
+  color: #B3B3B3;
+}

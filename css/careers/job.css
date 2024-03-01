@@ -1,0 +1,107 @@
+.job {
+  margin-bottom: 150px;
+}
+
+.job__info {
+  max-width: 1296px;
+  color: #b3b3b3;
+  margin-bottom: 80px;
+}
+
+.job__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.job__list-item {
+  max-width: 783px;
+
+  padding: 50px 50px 0 50px;
+
+  background-color: #1C1C1C;
+  border-radius: 16px;
+}
+
+.relationship {
+  margin-bottom: 50px;
+}
+
+.relationship__title {
+  margin-bottom: 14px;
+
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.relationship__texts {
+  display: flex;
+  column-gap: 10px;
+}
+
+.relationship__text {
+  padding: 8px 16px;
+
+  background-color: #1A1A1A;
+  border-radius: 68px;
+
+  color: #B3B3B3;
+}
+
+.abot__job {
+  margin-bottom: 40px;
+}
+
+.about__job-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about__job-text {
+  color: #B3B3B3;
+}
+
+.requirements__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.requirements__list-item {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+
+.requirements__list-item + .requirements__list-item {
+  margin-top: 20px;
+}
+
+.requirements__list-item-text {
+  color: #B3B3B3;
+}
+
+.requirements__list-button {
+  margin-bottom: 50px;
+  padding: 16px 30px;
+
+  background-color: #CAFF33;
+  border-radius: 82px;
+
+  font-size: 18px;
+  font-weight: 500;
+  color: #1C1C1C;
+}
+
+.requirements__list-button--first {
+  margin-top: 50px;
+}
+
+.requirements__list-button--second {
+  margin-top: 77px;
+}
+
+.requirements__list-button--third {
+  margin-top: 50px;
+}

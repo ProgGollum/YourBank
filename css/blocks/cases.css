@@ -1,0 +1,167 @@
+.cases__info {
+  margin-bottom: 80px;
+  color: #B3B3B3;
+}
+
+.cases__for-individual {
+  margin-bottom: 60px;
+  
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+
+}
+
+.for__individual-cards {
+  max-width: 748px;
+  padding: 50px;
+
+  background-color: #1C1C1C;
+  border-radius: 20px;
+
+  position: relative;
+  z-index: -2;
+}
+
+.for__individual-cards::after {
+  display: inline-block;
+
+  content: "";
+  width: 224px;
+  height: 213px;
+
+  background-image: url("./../../img/cases/for__individual__abstract.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  order: undefined;
+  flex-grow: 0;
+}
+
+.for__individual-list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.for__individual-list--first {
+  margin-bottom: 20px;
+}
+
+.for__individual-item {
+  width: 314px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-color: #1A1A1A;
+  border-radius: 16px;
+
+
+}
+
+.for__individual-item-img {
+  margin-bottom: 24px;
+}
+
+.for__individual-item-text {
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.for__individual-generel {
+  max-width: 748px;
+}
+
+.for__individual-general-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.for__individual-general-text {
+  margin-bottom: 62px;
+  color: #B3B3B3;
+}
+
+.for__individual-general-proccents {
+  margin-bottom: 62px;
+
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.for__individual-general-proccent {
+  width: 183px;
+}
+
+.for__individual-general-proccent--center {
+  width: 283px;
+  padding: 0 50px;
+  border-right: 1px #262626 dashed;
+  border-left: 1px #262626 dashed;
+}
+
+.proccent-value {
+  margin-bottom: 5px;
+
+  font-size: 58px;
+  font-weight: 500;
+  color: #CAFF33;
+}
+
+.proccent-text {
+  color: #B3B3B3;
+}
+
+.for__individual-general-button {
+  padding: 18px 24px;
+
+  background-color: #1C1C1C;
+  border-radius: 82px;
+  border: 1px #262626 solid;
+
+  font-weight: 400;
+}
+
+
+
+
+.cases__for-buisnes {
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.for__individual-cards--buisness {
+  max-width: 748px;
+  padding: 50px;
+
+  background-color: #1C1C1C;
+  border-radius: 20px;
+
+  position: relative;
+  z-index: -2;
+}
+
+.for__individual-cards--buisness::before {
+  display: inline-block;
+  
+  content: "";
+  width: 224px;
+  height: 213px;
+
+  background-image: url("./../../img/cases/for__individual__abstract__right.svg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  order: undefined;
+  flex-grow: 0;
+}

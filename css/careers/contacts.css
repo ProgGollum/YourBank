@@ -1,0 +1,26 @@
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contacts__inner {
+  padding: 50px 0;
+
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px #262626 solid;
+  border-bottom: 1px #262626 solid;
+}
+
+.contacts__list {
+  display: flex;
+  column-gap: 20px;
+}
+
+.contacts__list-link {
+  font-weight: 400;
+}
+
+.contacts__list-item-text {
+  font-weight: 400;
+}

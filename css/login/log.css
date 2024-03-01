@@ -1,0 +1,165 @@
+.log {
+  margin-bottom: 150px;
+}
+
+.wrapper {
+  padding: 100px 150px;
+  background-color: #1B1B1B;
+  border-radius: 20px;
+  border: 1px #262626 solid;
+
+  position: relative;
+}
+
+.wrapper::after {
+  display: inline-block;
+  overflow: hidden;
+
+  content: "";
+  width: 342px;
+  height: 325px;
+
+  position: absolute;
+  top: 0;
+  right: -15px;
+
+  background-image: url("./../../img/login/log/abstract.svg");
+}
+
+.login__title {
+  margin-bottom: 20px;
+  
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: 500;
+  color: #CAFF33;
+}
+
+.login__form-info {
+  margin-bottom: 80px;
+
+  text-align: center;
+
+  color: #BFBFBF;
+}
+
+.login__form {
+  background-color: #1B1B1B;
+}
+
+.login__inputs {
+  margin-bottom: 40px;
+
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__inputs-email {
+  width: 498px;
+
+  padding: 24px;
+
+  background-color: #1A1A1A;
+  border-radius: 88px;
+  border: 1px #262626 solid;
+}
+
+.login__inputs-pass {
+  width: 498px;
+
+  padding: 24px;
+  
+  background-color: #1A1A1A;
+  border-radius: 88px;
+  border: 1px #262626 solid;
+}
+
+.login__form-forgot {
+  margin-bottom: 40px;
+
+  text-decoration: underline !important;
+  display: flex;
+  justify-content: center;
+}
+
+.login__form-buttons {
+  margin-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px ;
+}
+
+.form__login-buttons-login {
+  width: 518px;
+
+  padding: 18px 20px;
+
+  background-color: #CAFF33;
+  border-radius: 63px;
+
+  font-weight: 400;
+  color: #262626;
+}
+
+.form__login-buttons-signup {
+  width: 518px;
+  
+  padding: 18px 20px;
+
+  background-color: #262626;
+  border-radius: 63px;
+  border: 1px #333333 solid;
+
+  font-weight: 400;
+  color: #fff;
+}
+
+.login__form-continue {
+  max-width: 518px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  color: #B3B3B3;
+  text-align: center;
+
+  position: relative;
+}
+
+.login__form-continue::after {
+  display: inline-block;
+  
+  content: "";
+  width: 165.5px;
+  height: 1px;
+
+  position: absolute;
+  left: 0;
+  top: 13.5px;
+
+  background-image: url("./../../img/login/log/line.png");
+}
+
+.login__form-continue::before {
+  display: inline-block;
+  
+  content: "";
+  width: 165.5px;
+  height: 1px;
+
+  position: absolute;
+  right: 0;
+  top: 13.5px;
+
+  background-image: url("./../../img/login/log/line.png");
+}
+
+.login__form-coninue-icons {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}

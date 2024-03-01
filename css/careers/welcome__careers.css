@@ -1,0 +1,62 @@
+.welcome__careers {
+  margin-bottom: 150px;
+}
+
+.welcome__careers-inner {
+  padding: 50px;
+
+  display: flex;
+  justify-content: flex-end;
+
+  background-color: #1C1C1C;
+
+  position: relative;
+}
+
+.welcome__careers-inner::after {
+  display: inline-block;
+
+  content: "";
+  width: 505px;
+  height: 480px;
+  /* transform: rotate(-90.00deg); */
+
+  position: absolute;
+  top: 0;
+  right: -20px;
+
+  background-image: url("./../../img/careers/welcome__careers/abstract.svg");
+}
+
+.welcome__careers-general {
+  max-width: 791px;
+  padding: 80px;
+  
+  background-color: #1A1A1A;
+  border-radius: 20px 0 80px 20px;
+
+  z-index: 3;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.welcome__careers-general-title {
+  margin-bottom: 23px;
+
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.welcome__careers-general-title span {
+  color: #CAFF33;
+}
+
+.welcome__careers-general-text {
+  color: #B3B3B3;
+}
+
+.welcome__careers-background {
+  z-index: 2;
+  border-radius: 16px;
+}

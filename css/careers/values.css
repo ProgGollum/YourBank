@@ -1,0 +1,39 @@
+.values {
+  margin-bottom: 150px;
+}
+
+.values__info {
+  max-width: 1296px;
+  
+  margin-bottom: 80px;
+
+  color: #B3B3B3;
+}
+
+.values__list {
+  display: flex;
+  column-gap: 80px;
+}
+
+.values__list--first {
+  margin-bottom: 80px;
+}
+
+.values__list-item {
+  max-width: 758px;
+  padding-left: 30px;
+
+  border-left: 1px #CAFF33 solid;
+}
+
+.values__list-item-title {
+  margin-bottom: 30px;
+
+  font-size: 58px;
+  font-weight: 500;
+  color: #4C4C4D;
+}
+
+.values__list-item-text {
+  color: #B3B3B3;
+}
